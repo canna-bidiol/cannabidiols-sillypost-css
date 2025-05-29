@@ -1,0 +1,207 @@
+* {
+  cursor: url("https://s7.ezgif.com/tmp/ezgif-72f8ea7812d59d.gif"), auto;
+  color: #fff;
+  font-family: Courier New, monospace;
+}
+
+* > a {
+  color: #ff7230;
+}
+
+* > a:visited {
+  color: #ff7230;
+}
+
+#navbar > a, #navbar > a:visited {
+  color: #ff7230;
+}
+
+body {
+  background-image: url("https://zero-one.nekoweb.org/Images/ZERONE.gif");
+}
+
+#main {
+  background: #000;
+}
+
+#header-right {
+  display: none;
+}
+
+#header {
+  background-image: url("https://i.postimg.cc/k5DDMJBb/img-2025-05-25-00-36-42.png");
+  background-position-y: center;
+  border-bottom: 3px solid #ff7230;
+}
+
+#navbar {
+  background-image: url("https://zero-one.nekoweb.org/Images/ZERONE.gif");
+  background-color: HEXADECIMAL or RGBA or CSS COLOR NAME HERE;
+  border-bottom: 3px solid #ff7230;
+  display: flex;
+  justify-content: center;
+}
+
+#navbar > * {
+  border-right: 1px solid #ff7230;
+}
+
+#logo {
+  content: url("https://upload.wikimedia.org/wikipedia/commons/3/39/The_Living_Tombstone_2014_logo.svg");
+}
+
+#profile-top-left > img {
+  content: url("https://i1.sndcdn.com/avatars-cdrLt7mTZHeR3ti3-2QSyow-t240x240.jpg");
+  clip-path: circle(50%);
+}
+
+#profile-specifics:after {
+  content: url("https://i.postimg.cc/CMvh5TpC/470900843-1040101934472699-7151784782007349158-n.png");
+  padding: 10px;
+  font-size: 10px;
+  color: #ff7230;
+  animation-name: jello-horizontal;
+  animation-duration: 2s;
+  animation-delay: .3s;
+  animation-iteration-count: infinite;
+}
+
+#search-bar {
+  display: none;
+}
+
+.post-author > img {
+  content: url("https://i1.sndcdn.com/avatars-cdrLt7mTZHeR3ti3-2QSyow-t240x240.jpg");
+  clip-path: circle(50%);
+}
+
+input {
+  color: #ff7230;
+}
+
+#wrapper {
+  box-shadow: 0 0 100px #ff7230;
+  border: 2px solid #ff7230;
+}
+
+.post {
+  background-image: url("https://i.postimg.cc/26Rmprvm/image.png");
+  border: 2px solid #ff7230;
+  background-position-y: center;
+  background-position-x: center;
+}
+
+.post:nth-child(2n) {
+  background-image: url("https://i.postimg.cc/26Rmprvm/image.png");
+  border: 2px solid #ff7230;
+  background-position-y: center;
+  background-position-x: center;
+}
+
+
+/* PLEASE KEEP THESE CREDITS!!! if i see you using the theme without credits i will inbox you and ask you to readd them! even if you ignore me i will have others dm you too....*/
+#profile-top-left:after {
+  font-size: 10px;
+  content: "code by cannabidiol";
+  padding: 5px;
+  color: #ff7230;
+}
+/* PLEASE KEEP THESE CREDITS!!! if i see you using the theme without credits i will inbox you and ask you to readd them! even if you ignore me i will have others dm you too....*/
+
+element {
+}
+
+strong {
+  color: #ff7230;
+}
+
+h3 {
+  color: #ff7230;
+}
+
+.jello-horizontal {
+  -webkit-animation: 2s .3s infinite both jello-horizontal;
+  animation: 2s .3s infinite both jello-horizontal;
+}
+
+@-webkit-keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, .75, 1);
+    transform: scale3d(1.25, .75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(.75, 1.25, 1);
+    transform: scale3d(.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, .85, 1);
+    transform: scale3d(1.15, .85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, .75, 1);
+    transform: scale3d(1.25, .75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(.75, 1.25, 1);
+    transform: scale3d(.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, .85, 1);
+    transform: scale3d(1.15, .85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.post-author-username {
+  color: #000;
+}
+
+.post-date {
+  color: #000;
+}
