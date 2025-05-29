@@ -1,0 +1,96 @@
+/* All images must be direct links. If there is an element you will not change (either at all or via code), you can safely delete it. */
+/* Remember to keep backups of your code if you're making large changes! It is easier and faster to restore a backup then it is to undo your code. */
+
+/* Having issues? Go through this checklist before asking for help (don't worry we all do these): */
+/* 1. Are there quotation marks where there should or shouldn't be? */
+/* 2. Is your color hexadecimal? (ex. #FFFFFF) or rgba? (ex. rgba(245, 40, 145, 1)) Are these formatted correctly? */
+/* 3. Alternatively, try using the other format (hexadecimal instead of rgba or vice versa) */
+/* 4. Do you have your unit? (px, %, etc.) */
+/* 5. Is there an left AND right bracket? { } Are they in the right place? */
+/* 6. Are your images actually direct links? https://www.wikihow.com/Get-the-URL-for-Pictures */
+/* 7. Is the element set to display:none (hidden)? Some elements in this base code have it already set as an option. Make sure to look carefully at what you are hiding. If you're not entirely sure what it is, you probably don't wanna hide it. */
+
+/* If you've exhausted all options, send me an inbox on sillypost. I'd prefer you not contact my discord unless we have already spoken there before. (If we have then feel free to dm me!) I'm more than happy to help anyone, but it makes it easier for me to help you if you make sure these issues are already checked. */
+
+/* Tools (these will make your life A LOT easier, DONT IGNORE THIS!!!!!!!!!!!!!): */
+/* RGBA color picker: https://rgbacolorpicker.com/ */
+/* CSS gradient creator: https://cssgradient.io/ */
+/* CSS color name list: https://www.w3schools.com/cssref/css_colors.php */
+/* CSS transition animations: https://animate.style/ (NOTE: Don't use these until you are comfortable with CSS.) */
+/* CSS clip-path maker: https://bennettfeely.com/clippy/ */
+/* CSS Web safe fonts list: https://www.w3schools.com/css/css_font_websafe.asp */
+
+/* Image Hosts (places to upload images you will use. If you don't know how to direct-link an image, refer to #7 on the checklist. */
+/* File Garden - https://filegarden.com/ */
+/* PostImg - https://postimages.org/ */
+/* DO NOT use catbox.moe, they are very prone to outages which will leave your images broken for a period of time. Its annoying. */
+
+/* This is a universal selector. This means that it applies to all elements on the page. Make sure to use a cursor of appropriate size. Font-family decides what font your page will display in. As far as I'm aware, you can only use web-safe fonts (list of these in the tools above.) If you want to keep it as comic sans, you can safely delete font-family. */
+* {
+  cursor: url("DIRECT LINK HERE"), auto;
+  font-family: FONT HERE;
+}
+
+/* This applies to the sides outside of the usable main box. On my(cannabidiol) profile, it's where the strawberry pattern is. If you are using an image, delete background-color. If you're using a solid color or a gradient, delete background-image. */
+body {
+  background-image: url("DIRECT LINK HERE");
+  background: HEXADECIMAL or RGBA or CSS COLOR NAME HERE;
+}
+
+/* This applies to the main box. In the profile editor, you can change the color of this using the 'background color' feature. Adjusting the width may cause things to move locations/stack ontop of each other, so you may want to experiment. # = a number */
+#main {
+  background-image: url("DIRECT LINK HERE");
+  width: #%;
+}
+
+/* This applies to the site header. If you are using an image, delete background-color. If you're using a solid color or a gradient, delete background-image. */
+#header {
+  background-image: url("DIRECT LINK HERE");
+  background: HEXADECIMAL or RGBA or CSS COLOR NAME HERE;
+}
+
+/* This applies to the site navigation bar (home, directory, groups, etc.) If you are using an image, delete background-color. If you're using a solid color or a gradient, delete background-image. Display: none allows you to hide this entirely. Justify-content changes where the boxes align; if you don't want to change this, you can remove justify-content entirely. On my(cannabidiol) profile, it's set to 'center.' Options pictured: https://imgur.com/a/IdsJ6lP */
+#navbar {
+  background-image: url("DIRECT LINK HERE");
+  background-color: HEXADECIMAL or RGBA or CSS COLOR NAME HERE;
+  display: none;
+  justify-content: center/end/space-between (choose one and delete the rest);
+}
+
+/* This applies to your posts. Post colors alternate (a b a b); if you want all posts to be the same color, set '.post:nth-child(2n)' below to the same background image or color. */
+.post {
+  background-image: url("DIRECT LINK HERE");
+  background: HEXADECIMAL or RGBA or CSS COLOR NAME HERE;
+}
+
+.post:nth-child(2n) {
+  background-image: url("DIRECT LINK HERE");
+  background: HEXADECIMAL or RGBA or CSS COLOR NAME HERE;
+}
+
+/* This applies to the website logo. On my(cannabidiol) profile, it's where the "it/its" graphic with the strawberry is located. NOTE: You don't want a gif thats too tall or it might be weird. 2+:1 is a good ratio. Shameless plug: I make headers just like mine for $5...! */
+#logo {
+  content: url("DIRECT LINK HERE");
+}
+
+/* This applies to your profile image. Entering a number for the height will resize the image; the default is 128px. Each clip path changes the image's shape. Clip-Path: circle cuts the image out into a circle. For other shapes (stars, rhombus, any polygon really), refer to the CSS clip-path maker in tools. If you decide to use a shape other than a circle or no shape at all, make sure to delete the circle clip path. # = a number */
+#profile-top-left > img {
+  height: #px;
+  clip-path: circle(50%);
+}
+
+/* This allows you to add a pagedoll to your page. The padding isn't necessary and can be removed or changed, but I personally add it. On my(cannabidiol) page, it is the gif of my oc. If you don't plan to add a pagedoll, remove this entirely. Clip-path also works here too (refer to the notes for profile-top-left > img to know more, aka the element right above this one.) I'm not entirely sure why you'd use this here, but feel free to add it here as well if you do. */
+#profile-specifics:after {
+  content: url("DIRECT LINK HERE");
+  padding: 10px;
+}
+
+/* This allows you to remove the profile options in your header. Pictured here: https://imgur.com/a/wiIkBmh If you want to keep it, remove this entirely. */
+#header-right {
+  display: none;
+}
+
+/* This allows you to remove the search bar in your header. Pictured here: https://imgur.com/a/wiIkBmh If you want to keep it, remove this entirely. */
+#search-bar {
+  display: none;
+}
