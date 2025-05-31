@@ -1,0 +1,10 @@
+/* literally all this does is change your entire sillypost to the freaky font (papyrus) and changes the sillypost logo to freakypost.*/
+/* to use, paste into your global css box in settings */
+/* if you want to remove the freakypost logo, remove #logo and its contents entirely */
+* {
+  font-family: Papyrus,fantasy; 
+  }
+
+#logo {
+  content: url("https://i.postimg.cc/SsnKJtZb/logo.png");
+}
