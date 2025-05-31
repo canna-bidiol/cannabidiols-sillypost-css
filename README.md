@@ -11,3 +11,6 @@ Do not remove my credits.
 
 ## Global Codes:
 Check back later.
+
+## Code Snippets:
+- Freaky Font/Papyrus Font
