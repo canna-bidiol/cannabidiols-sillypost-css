@@ -13,4 +13,4 @@ Do not remove my credits.
 Check back later.
 
 ## Code Snippets:
-- Freaky Font/Papyrus Font
+- [Freaky Font/Papyrus Font](https://github.com/canna-bidiol/cannabidiols-sillypost-css/blob/main/code%20snippets/freakyfont.css)
