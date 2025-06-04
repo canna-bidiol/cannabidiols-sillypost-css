@@ -1,0 +1,95 @@
+* {
+  cursor: url("https://www.rw-designer.com/cursor-view/83266.png"), auto;
+  font-family: ;
+}
+
+* > h1, * > h2, * > h3 {
+  color: #ee286e;
+}
+
+body {
+  background: #1e201f;
+  color: #1c8eb0;
+}
+
+body > a {
+  color: #ee286e;
+}
+
+#main {
+  background-image: url("https://file.garden/Zx_GOM9CMB3jXjgK/toyhouse/img-2025-02-22-21-34-45.png");
+}
+
+#header {
+  background: #1e201f;
+  max-height: 95px;
+  border-bottom: 1px solid #ee286e;
+}
+
+#navbar {
+  background-color: #1e201f;
+  justify-content: center;
+  border-bottom: 1px solid #ee286e;
+}
+
+#navbar > * {
+  border-color: #ee286e;
+}
+
+#navbar > a, #navbar > a:visited {
+  color: #999;
+}
+
+.post {
+  background-image: url("DIRECT LINK HERE");
+  background: HEXADECIMAL or RGBA or CSS COLOR NAME HERE;
+}
+
+.post:nth-child(2n) {
+  background-image: url("DIRECT LINK HERE");
+  background: HEXADECIMAL or RGBA or CSS COLOR NAME HERE;
+}
+
+#logo {
+  content: url("https://file.garden/Zx_GOM9CMB3jXjgK/toyhouse/Hatsune_miku_logo_v3.svg(2).png");
+}
+
+#profile-top-left > img {
+  height: #px;
+}
+
+#profile-specifics:after {
+  content: url(".");
+  padding: 10px;
+}
+
+#header-right {
+  display: none;
+}
+
+#search-bar {
+  display: none;
+}
+
+body:before {
+  content: url("https://file.garden/Zx_GOM9CMB3jXjgK/toyhouse/img_illust_cv01a_min(1).png");
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  animation: 4s ease-in-out infinite float;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
